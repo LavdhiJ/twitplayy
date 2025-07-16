@@ -1,0 +1,10 @@
+{
+  "name": "twitplay",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix youbk\" \"npm run dev --prefix twitplayfront\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
